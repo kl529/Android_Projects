@@ -73,7 +73,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:id="@+id/btn7"
-                android:text="week1_7"
+                android:text="Log in"
                 android:onClick="onClick"
                 />
             <Button
@@ -81,7 +81,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:id="@+id/btn8"
-                android:text="week1_8"
+                android:text="Frame layout"
                 android:onClick="onClick"
                 />
         </TableRow>
@@ -95,7 +95,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:id="@+id/btn9"
-                android:text="week1_9"
+                android:text="timer"
                 android:onClick="onClick"
                 />
             <Button
