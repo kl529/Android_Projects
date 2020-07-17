@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Vertical_layout extends AppCompatActivity {
+public class Vertical_layout extends AppCompatActivity {//수직적인 linearlayout
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

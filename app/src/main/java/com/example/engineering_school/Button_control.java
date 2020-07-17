@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Button_control extends AppCompatActivity {
+public class Button_control extends AppCompatActivity { //버튼을 누르면 글자가 바뀜
 
 
     Button btnTest = null;

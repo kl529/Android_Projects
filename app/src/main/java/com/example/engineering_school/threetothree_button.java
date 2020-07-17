@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class threetothree_button extends AppCompatActivity {
+public class threetothree_button extends AppCompatActivity { //3x3 버튼 만들기
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

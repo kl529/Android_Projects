@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-public class log_in extends AppCompatActivity implements View.OnClickListener {
+public class log_in extends AppCompatActivity implements View.OnClickListener { //로그인 화면
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

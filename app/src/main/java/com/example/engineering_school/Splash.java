@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-public class Splash extends AppCompatActivity {
+public class Splash extends AppCompatActivity { //첫 스플래쉬 화면
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

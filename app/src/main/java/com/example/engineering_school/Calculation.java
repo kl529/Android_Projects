@@ -3,17 +3,19 @@ package com.example.engineering_school;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-public class Calculation extends AppCompatActivity implements View.OnClickListener {
+public class Calculation extends AppCompatActivity implements View.OnClickListener { // 계산기
 
     TextView cons = null;
     String oper;
-    Integer before;
-    Integer after;
-    Integer fin;
+    Double before;
+    Double after;
+    Double fin;
     Boolean reset = true;
+    Boolean pointer = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -121,32 +123,114 @@ public class Calculation extends AppCompatActivity implements View.OnClickListen
                 break;
 
             case R.id.plus_minus:
-                if (Double.parseDouble((String) cons.getText()) > 0) {
-                    cons.setText((Integer.parseInt(cons.getText().toString())));
-                } else {
-                    cons.setText((Integer.parseInt(cons.getText().toString())*-1));
+                if (pointer == true){
+                    cons.setText(""+(Double.parseDouble(cons.getText().toString())*-1));
+                }
+
+                else if(pointer == false){
+                    cons.setText(""+(Integer.parseInt(cons.getText().toString())*-1));
                 }
                 break;
 
             case R.id.percent:
+                before = Double.parseDouble(cons.getText().toString());
+                oper = "percent";
+                reset = true;
+                Log.d("뭘까요", pointer.toString());
                 break;
 
             case R.id.divide:
+                before = Double.parseDouble(cons.getText().toString());
+                oper = "divide";
+                reset = true;
+                Log.d("뭘까요", pointer.toString());
                 break;
 
             case R.id.multi:
+                before = Double.parseDouble(cons.getText().toString());
+                oper = "multi";
+                reset = true;
                 break;
 
             case R.id.minus:
+                before = Double.parseDouble(cons.getText().toString());
+                oper = "minus";
+                reset = true;
+                Log.d("뭘까요", pointer.toString());
                 break;
 
             case R.id.plus:
+                before = Double.parseDouble(cons.getText().toString());
+                oper = "plus";
+                reset = true;
+                Log.d("뭘까요", pointer.toString());
                 break;
 
             case R.id.equal:
-                break;
+//                after = Integer.parseInt(cons.getText().toString());
+                after = Double.parseDouble(cons.getText().toString());
+                if (pointer == false) {
+                    if (oper.equals("percent")) {
+                        fin = before % after;
+                        cons.setText(Integer.toString((int)Math.round(Double.parseDouble(fin.toString()))));
+                        reset = true;
+                        break;
+                    } else if (oper.equals("divide")) {
+                        fin = before / after;
+                        cons.setText(Integer.toString((int)Math.round(Double.parseDouble(fin.toString()))));
+                        reset = true;
+                        break;
+                    } else if (oper.equals("multi")) {
+                        fin = before * after;
+                        cons.setText(Integer.toString((int)Math.round(Double.parseDouble(fin.toString()))));
+                        reset = true;
+                        break;
+                    } else if (oper.equals("minus")) {
+                        fin = before - after;
+                        cons.setText(Integer.toString((int)Math.round(Double.parseDouble(fin.toString()))));
+                        reset = true;
+                        break;
+                    } else if (oper.equals("plus")) {
+                        fin = before + after;
+                        cons.setText(Integer.toString((int)Math.round(Double.parseDouble(fin.toString()))));
+                        reset = true;
+                        break;
+                    }
+                }
+
+                else if(pointer == true){
+                    if (oper.equals("percent")) {
+                        fin = before % after;
+                        cons.setText(fin.toString());
+                        reset = true;
+                        break;
+                    } else if (oper.equals("divide")) {
+                        fin = before / after;
+                        cons.setText(fin.toString());
+                        reset = true;
+                        break;
+                    } else if (oper.equals("multi")) {
+                        fin = before * after;
+                        cons.setText(fin.toString());
+                        reset = true;
+                        break;
+                    } else if (oper.equals("minus")) {
+                        fin = before - after;
+                        cons.setText(fin.toString());
+                        reset = true;
+                        break;
+                    } else if (oper.equals("plus")) {
+                        fin = before + after;
+                        cons.setText(fin.toString());
+                        reset = true;
+                        break;
+                    }
+                }
 
             case R.id.point:
+                pointer = true;
+                cons.append(".");
+                reset = false;
                 break;
         }
     }

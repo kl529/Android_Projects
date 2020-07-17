@@ -12,7 +12,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
-public class Timer extends AppCompatActivity {
+public class Timer extends AppCompatActivity { //타이머 만들어서 종료시키기 - thread
 
     TextView tvNum;
     int count = 30;
