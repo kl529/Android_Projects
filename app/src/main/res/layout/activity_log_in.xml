@@ -56,11 +56,14 @@
 
         <Button
             android:id="@+id/submit"
-            android:layout_width="match_parent"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:background="#00b2ed"
             android:text="Log in"
-            android:onClick="onClick"/>
+            android:layout_gravity="center"
+            android:onClick="onClick"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_one"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -74,8 +77,8 @@
                 android:layout_height="wrap_content"
                 android:text="Find Password"
                 android:layout_weight="1"
-                android:background="#F12D70"
-                android:onClick="onClick"/>
+                android:onClick="onClick"
+                android:background="@drawable/button_two"/>
 
             <Button
                 android:id="@+id/sign_up"
@@ -83,8 +86,8 @@
                 android:layout_height="wrap_content"
                 android:text="Sign Up"
                 android:layout_weight="1"
-                android:background="#4CAF50"
-                android:onClick="onClick"/>
+                android:onClick="onClick"
+                android:background="@drawable/button_three"/>
 
         </LinearLayout>
 
@@ -105,9 +108,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:text="Facebook으로 로그인 "
-                android:background="#228BDF"
                 android:layout_below="@id/Or"
-                android:onClick="onClick"/>
+                android:onClick="onClick"
+                android:background="@drawable/button_facebook"
+                />
 
             <CheckBox
                 android:id="@+id/remember"
