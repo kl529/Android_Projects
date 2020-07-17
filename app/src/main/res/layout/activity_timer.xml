@@ -20,7 +20,6 @@
         android:layout_width="130dp"
         android:layout_height="105dp"
         android:text="Timer"
-        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

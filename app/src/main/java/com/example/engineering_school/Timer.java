@@ -8,6 +8,9 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 import android.widget.TextView;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 
 public class Timer extends AppCompatActivity {
 
@@ -21,9 +24,12 @@ public class Timer extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timer);
 
+        tvNum = (TextView)findViewById(R.id.tvNum);
+
         new Thread(new Runnable() {
             @Override
             public void run() {
+                count = 30;
                 for (int i = 0; i <= 50; i++) { // 현재 UI 스레드가 아니기 때문에 메시지 큐에 Runnable을 등록 함
                     count--;
 //                    runOnUiThread(new Runnable() {
@@ -41,9 +47,8 @@ public class Timer extends AppCompatActivity {
                     Message msg = handler.obtainMessage();
                     msg.arg1 = count;
                     handler.sendMessage(msg);
-                    Log.d("help***************", Integer.toString(count));
-//                    tvNum.setText("page out : " + count +"s");
-                    tvNum.setText(count);
+//                    Log.d("help***************", Integer.toString(count));
+                    tvNum.setText(Integer.toString(count));
 
                     try {
                         Thread.sleep(1000);
@@ -64,3 +69,14 @@ public class Timer extends AppCompatActivity {
         }).start();
     }
 }
+
+//class myThread implements Runnable
+//{
+//    public void run()
+//    {
+//        "   "
+//    }
+//}
+//
+//    Thread my_thread = new Thread(new myThread());
+//my_rhread.start();

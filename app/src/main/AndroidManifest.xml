@@ -11,20 +11,21 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Timer"></activity>
         <activity android:name=".Frame_layout" />
-        <activity android:name=".log_in" />
-        <activity android:name=".Calculation" />
-        <activity android:name=".threetothree_button" />
-        <activity android:name=".threetothree_layout" />
-        <activity android:name=".Horizontal_layout" />
-        <activity android:name=".Vertical_layout" />
-        <activity android:name=".Button_control" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".log_in" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Calculation" />
+        <activity android:name=".threetothree_button" />
+        <activity android:name=".threetothree_layout" />
+        <activity android:name=".Horizontal_layout" />
+        <activity android:name=".Vertical_layout" />
+        <activity android:name=".Button_control" />
+        <activity android:name=".MainActivity"/>
+
     </application>
 
 </manifest>
