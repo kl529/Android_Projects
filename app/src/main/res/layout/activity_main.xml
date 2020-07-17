@@ -103,7 +103,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:id="@+id/btn10"
-                android:text="week1_10"
+                android:text="textviews1"
                 android:onClick="onClick"
                 />
             <Button
@@ -111,7 +111,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:id="@+id/btn11"
-                android:text="week1_11"
+                android:text="textviews2"
                 android:onClick="onClick"
                 />
             <Button
