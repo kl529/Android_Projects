@@ -121,11 +121,10 @@ public class Calculation extends AppCompatActivity implements View.OnClickListen
                 break;
 
             case R.id.plus_minus:
-                String mi = "-";
                 if (Double.parseDouble((String) cons.getText()) > 0) {
-                    cons.setText(mi.concat((String) cons.getText()));
+                    cons.setText((Integer.parseInt(cons.getText().toString())));
                 } else {
-                    cons.setText(Integer.toString(Math.abs(Integer.parseInt((String) cons.getText()))));
+                    cons.setText((Integer.parseInt(cons.getText().toString())*-1));
                 }
                 break;
 

@@ -111,6 +111,7 @@
                 android:layout_below="@id/Or"
                 android:onClick="onClick"
                 android:background="@drawable/button_facebook"
+                android:drawableLeft="@drawable/facebook1"
                 />
 
             <CheckBox
