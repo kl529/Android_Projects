@@ -75,6 +75,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent= new Intent(MainActivity.this, textviews2.class);
                 startActivity(intent);
                 break;
+
+            case R.id.btn12:
+                intent= new Intent(MainActivity.this, MindTest.splash_mind.class);
+                startActivity(intent);
+                break;
         }
     }
 }

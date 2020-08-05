@@ -9,15 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="views.textviews2"></activity>
-        <activity android:name="views.textviews1" />
-        <activity android:name="views.Recycleview" />
-        <activity android:name="mains.Splash">
+        <activity android:name="MindTest.main_page"></activity>
+        <activity android:name="MindTest.login" />
+        <activity android:name="MindTest.splash_mind">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="views.textviews2" />
+        <activity android:name="views.textviews1" />
+        <activity android:name="views.Recycleview" />
+        <activity android:name="mains.Splash">
         </activity>
         <activity android:name="functions.Timer" />
         <activity android:name="layout.Frame_layout" />

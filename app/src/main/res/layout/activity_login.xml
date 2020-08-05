@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#E14545">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:text="세상 모든 심리"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="177dp"
+            tools:layout_editor_absoluteY="55dp"
+            android:layout_marginBottom="50dp"/>
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPostalAddress"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="205dp"
+            android:hint="Email"
+            android:background="@drawable/rectangle_circle_white"
+            android:textSize="25dp"
+            android:layout_marginBottom="15dp"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="10dip" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/rectangle_circle_white"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="10dip"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="139dp" />
+
+        <Button
+            android:id="@+id/log"
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:text="로그인"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="173dp"
+            tools:layout_editor_absoluteY="292dp"
+            android:background="@drawable/rectangle_circle"
+            android:onClick="onClick"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/findid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아이디/비밀번호 찾기"
+                android:background="#E14545"
+                android:textColor="#FFFFFF"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="357dp"
+                android:layout_marginRight="80dp"
+                android:onClick="onClick"/>
+
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="회원가입"
+                tools:layout_editor_absoluteX="253dp"
+                tools:layout_editor_absoluteY="365dp"
+                android:textColor="#FFFFFF"
+                android:background="#E14545"
+                android:onClick="onClick"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/naver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/naver"
+                tools:layout_editor_absoluteX="128dp"
+                tools:layout_editor_absoluteY="439dp"
+                android:background="#E14545"
+                android:layout_marginRight="20dp"
+                android:onClick="onClick"/>
+
+            <ImageButton
+                android:id="@+id/facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/facebook"
+                tools:layout_editor_absoluteX="201dp"
+                tools:layout_editor_absoluteY="446dp"
+                android:background="#E14545"
+                android:layout_marginRight="20dp"
+                android:onClick="onClick"/>
+
+            <ImageButton
+                android:id="@+id/kakao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kakao"
+                android:background="#E14545"
+                tools:layout_editor_absoluteX="231dp"
+                tools:layout_editor_absoluteY="534dp"
+                android:layout_marginRight="20dp"
+                android:onClick="onClick"/>
+
+            <ImageButton
+                android:id="@+id/google"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/google"
+                tools:layout_editor_absoluteX="166dp"
+                tools:layout_editor_absoluteY="580dp"
+                android:background="#E14545"
+                android:onClick="onClick"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/login_no_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로그인하지 않고 시작하기"
+            tools:layout_editor_absoluteX="158dp"
+            tools:layout_editor_absoluteY="605dp"
+            android:background="@drawable/border"
+            android:textColor="#FFFFFF"
+            android:layerType="hardware"
+            android:layout_marginTop="30dp"
+            android:onClick="onClick"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
