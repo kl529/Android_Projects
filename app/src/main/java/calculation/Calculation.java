@@ -1,4 +1,4 @@
-package com.example.engineering_school;
+package calculation;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+
+import com.example.engineering_school.R;
 
 public class Calculation extends AppCompatActivity implements View.OnClickListener { // 계산기
 

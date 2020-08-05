@@ -1,4 +1,4 @@
-package com.example.engineering_school;
+package layout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+
+import com.example.engineering_school.R;
 
 public class Frame_layout extends AppCompatActivity { //framelayout을 활용해서 버튼을 누르면 그림이 바뀜
 

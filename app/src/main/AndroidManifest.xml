@@ -9,26 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".textviews2"></activity>
-        <activity android:name=".textviews1" />
-        <activity android:name=".Recycleview" />
-        <activity android:name=".Splash">
+        <activity android:name="views.textviews2"></activity>
+        <activity android:name="views.textviews1" />
+        <activity android:name="views.Recycleview" />
+        <activity android:name="mains.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Timer" />
-        <activity android:name=".Frame_layout" />
-        <activity android:name=".log_in" />
-        <activity android:name=".Calculation" />
-        <activity android:name=".threetothree_button" />
-        <activity android:name=".threetothree_layout" />
-        <activity android:name=".Horizontal_layout" />
-        <activity android:name=".Vertical_layout" />
-        <activity android:name=".Button_control" />
-        <activity android:name=".MainActivity" />
+        <activity android:name="functions.Timer" />
+        <activity android:name="layout.Frame_layout" />
+        <activity android:name="mains.log_in" />
+        <activity android:name="calculation.Calculation" />
+        <activity android:name="layout.threetothree_button" />
+        <activity android:name="layout.threetothree_layout" />
+        <activity android:name="layout.Horizontal_layout" />
+        <activity android:name="layout.Vertical_layout" />
+        <activity android:name="layout.Button_control" />
+        <activity android:name="mains.MainActivity" />
     </application>
 
 </manifest>

@@ -1,16 +1,23 @@
-package com.example.engineering_school;
+package mains;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.content.Context;
-import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
-import android.widget.Toast;
+
+import calculation.Calculation;
+import com.example.engineering_school.R;
+import functions.Timer;
+
+import layout.Button_control;
+import layout.Frame_layout;
+import layout.Horizontal_layout;
+import layout.Vertical_layout;
+import layout.threetothree_button;
+import layout.threetothree_layout;
+import views.textviews1;
+import views.textviews2;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener { //메인 테이블레이아웃
 

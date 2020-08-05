@@ -1,8 +1,10 @@
-package com.example.engineering_school;
+package layout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.engineering_school.R;
 
 public class Horizontal_layout extends AppCompatActivity { //수평적인 linearlayout
 

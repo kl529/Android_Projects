@@ -1,4 +1,4 @@
-package com.example.engineering_school;
+package layout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.engineering_school.R;
 
 public class Button_control extends AppCompatActivity { //버튼을 누르면 글자가 바뀜
 

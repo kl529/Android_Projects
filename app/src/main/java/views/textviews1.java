@@ -1,8 +1,10 @@
-package com.example.engineering_school;
+package views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.engineering_school.R;
 
 public class textviews1 extends AppCompatActivity {
 

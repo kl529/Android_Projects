@@ -1,4 +1,4 @@
-package com.example.engineering_school;
+package mains;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+
+import com.example.engineering_school.R;
+
+import mains.MainActivity;
 
 public class log_in extends AppCompatActivity implements View.OnClickListener { //로그인 화면
 

@@ -1,4 +1,4 @@
-package com.example.engineering_school;
+package functions;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,10 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.util.Log;
 import android.widget.TextView;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+
+import com.example.engineering_school.R;
+
+import mains.MainActivity;
 
 
 public class Timer extends AppCompatActivity { //타이머 만들어서 종료시키기 - thread

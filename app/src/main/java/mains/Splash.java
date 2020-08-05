@@ -1,10 +1,12 @@
-package com.example.engineering_school;
+package mains;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.example.engineering_school.R;
 
 public class Splash extends AppCompatActivity { //첫 스플래쉬 화면
 

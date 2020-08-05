@@ -1,4 +1,4 @@
-package com.example.engineering_school;
+package layout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.engineering_school.R;
 
 public class Vertical_layout extends AppCompatActivity {//수직적인 linearlayout
 

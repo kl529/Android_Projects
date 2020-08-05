@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Horizontal_layout"
+    tools:context="layout.Horizontal_layout"
     android:orientation="horizontal"
     android:weightSum="3"
     >
