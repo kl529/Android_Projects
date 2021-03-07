@@ -14,9 +14,9 @@ Simple Projects If you want to get more informations, visit [here.](https://kari
 
 SR No   | Project 
 --- | --- 
-1 | [Engineering_School_Project](https://github.com/kl529/Python_Projects/tree/main/01.%20Tetris) 
-2 | [FindYourMind](https://github.com/kl529/Python_Projects/tree/main/02.%20Matgo%20Game%20(Korean%20Traditonal%20Card%20Game))
-3 | [Calendar_App](https://github.com/kl529/Python_Projects/tree/main/02.%20Matgo%20Game%20(Korean%20Traditonal%20Card%20Game))
+1 | [Engineering_School_Project](https://github.com/kl529/Android_Projects/tree/main/01.%20Engineering_School_Project) 
+2 | [FindYourMind](https://github.com/kl529/Android_Projects/tree/main/02.%20FindYourMind)
+3 | [Calendar_App](https://github.com/kl529/Android_Projects/tree/main/03.%20Calendar_App)
 4 | Not Yet❗
 5 | Not Yet❗
 6 | Not Yet❗
