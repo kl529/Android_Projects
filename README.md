@@ -17,7 +17,7 @@ SR No   | Project
 1 | [Engineering_School_Project](https://github.com/kl529/Android_Projects/tree/Engineering_School_Project) 
 2 | [FindYourMind](https://github.com/kl529/Android_Projects/tree/FindyourMind)
 3 | [Calendar_App](https://github.com/kl529/App_KarBcity)
-4 | Not Yet❗
+4 | [FundingTalk_APP](https://github.com/hozzijeong/FundingTalk)
 5 | Not Yet❗
 6 | Not Yet❗
 7 | Not Yet❗
