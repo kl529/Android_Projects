@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".edit_profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#d3d4d4"
+            >
+
+            <ImageButton
+                android:id="@+id/home"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/home"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="156dp"
+                android:onClick="onClick"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/Mainname"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Edit profile"
+                tools:layout_editor_absoluteX="128dp"
+                tools:layout_editor_absoluteY="66dp"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textColor="#EF1246"
+                android:layout_marginRight="80dp"/>
+
+
+            <ImageButton
+                android:id="@+id/search"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/search"
+                tools:layout_editor_absoluteX="244dp"
+                tools:layout_editor_absoluteY="36dp"
+                android:onClick="onClick"
+                android:layout_marginRight="10dp"/>
+
+            <ImageButton
+                android:id="@+id/profile"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/user2"
+                tools:layout_editor_absoluteX="103dp"
+                tools:layout_editor_absoluteY="56dp"
+                android:onClick="onClick"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/profile_edit_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:src="@drawable/profile_user"
+                android:paddingBottom="50dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/changename"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="변경할 이름"
+                    android:layout_weight="2"
+                    android:gravity="center" />
+
+                <EditText
+                    android:id="@+id/changename_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/changeinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="설명"
+                    android:layout_weight="2"
+                    android:gravity="center" />
+
+                <EditText
+                    android:id="@+id/changeinfo_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Info"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/changepassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="변경할 비밀번호"
+                    android:layout_weight="2"
+                    android:gravity="center" />
+
+                <EditText
+                    android:id="@+id/changepassword_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:hint="Password"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/passwordagain"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="비밀번호 확인"
+                    android:layout_weight="2"
+                    android:gravity="center"/>
+
+                <EditText
+                    android:id="@+id/passwordagain_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:layout_weight="2"
+                    android:hint="Password"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:paddingTop="50dp">
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="취소"
+                    android:onClick="onClick"/>
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="확인"
+                    android:onClick="onClick"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

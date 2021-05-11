@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "userinfos",
+  "info": {
+    "name": "userinfo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "userpass": {
+      "type": "password"
+    },
+    "userps": {
+      "type": "string"
+    }
+  }
+}

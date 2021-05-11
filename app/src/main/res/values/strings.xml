@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">FindyourMind</string>
+    <string-array name="items_name">
+        <item>MBTI 성격유형검사</item>
+        <item>멘사 IQ 테스트</item>
+        <item>우울증 자가진단</item>
+        <item>객관성 테스트</item>
+        <item>다중지능 테스트</item>
+        <item>정신연령 테스트</item>
+        <item>에고그램 성격 유형</item>
+        <item>EQ 감성지수</item>
+        <item>ADHD 자가진단</item>
+        <item>싸이코패스 테스트</item>
+        <item>나르시즘 테스트</item>
+        <item>반응속도 테스트</item>
+        <item>좌뇌/우뇌 테스트</item>
+        <item>일 중독 자가진단</item>
+        <item>불안 자가진단(BAI)</item>
+        <item>가족 건강성 검사</item>
+        <item>섭식 장애 자가 진단</item>
+        <item>고독 자가 진단</item>
+        <item>진로정체감 검사</item>
+        <item>사랑의 유형 검사</item>
+        <item>구직 자신감 검사</item>
+    </string-array>
+
+    <string-array name="item_description">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+    </string-array>
+
+    <string-array name="done_name">
+        <item>MBTI 성격유형검사</item>
+        <item>멘사 IQ 테스트</item>
+        <item>우울증 자가진단</item>
+        <item>객관성 테스트</item>
+        <item>다중지능 테스트</item>
+    </string-array>
+
+    <string-array name="done_description">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="notdone_name">
+        <item>정신연령 테스트</item>
+        <item>에고그램 성격 유형</item>
+        <item>EQ 감성지수</item>
+        <item>ADHD 자가진단</item>
+        <item>싸이코패스 테스트</item>
+        <item>나르시즘 테스트</item>
+        <item>반응속도 테스트</item>
+        <item>좌뇌/우뇌 테스트</item>
+        <item>일 중독 자가진단</item>
+        <item>불안 자가진단(BAI)</item>
+        <item>가족 건강성 검사</item>
+        <item>섭식 장애 자가 진단</item>
+        <item>고독 자가 진단</item>
+        <item>진로정체감 검사</item>
+        <item>사랑의 유형 검사</item>
+        <item>구직 자신감 검사</item>
+    </string-array>
+
+    <string-array name="notdone_description">
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+    </string-array>
+
+</resources>

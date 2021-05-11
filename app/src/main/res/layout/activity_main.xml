@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/list_view_items"
+            android:layout_width="409dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--<LinearLayout-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="70dp"-->
+<!--android:orientation="horizontal"-->
+<!--android:background="#d3d4d4"-->
+<!--    >-->
+
+<!--<ImageButton-->
+<!--    android:id="@+id/home"-->
+<!--    android:layout_width="50dp"-->
+<!--    android:layout_height="match_parent"-->
+<!--    app:srcCompat="@drawable/home"-->
+<!--    tools:layout_editor_absoluteX="30dp"-->
+<!--    tools:layout_editor_absoluteY="156dp"-->
+<!--    android:onClick="onClick"-->
+<!--    android:layout_marginRight="10dp"/>-->
+
+<!--<TextView-->
+<!--    android:id="@+id/Mainname"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:text="심리검사 TEST"-->
+<!--    tools:layout_editor_absoluteX="128dp"-->
+<!--    tools:layout_editor_absoluteY="66dp"-->
+<!--    android:textSize="30dp"-->
+<!--    android:gravity="center"-->
+<!--    android:textColor="#EF1246"-->
+<!--    android:layout_marginRight="20dp"/>-->
+
+
+<!--<ImageButton-->
+<!--    android:id="@+id/search"-->
+<!--    android:layout_width="50dp"-->
+<!--    android:layout_height="match_parent"-->
+<!--    app:srcCompat="@drawable/search"-->
+<!--    tools:layout_editor_absoluteX="244dp"-->
+<!--    tools:layout_editor_absoluteY="36dp"-->
+<!--    android:onClick="onClick"-->
+<!--    android:layout_marginRight="10dp"/>-->
+
+<!--<ImageButton-->
+<!--    android:id="@+id/profile"-->
+<!--    android:layout_width="70dp"-->
+<!--    android:layout_height="match_parent"-->
+<!--    app:srcCompat="@drawable/user2"-->
+<!--    tools:layout_editor_absoluteX="103dp"-->
+<!--    tools:layout_editor_absoluteY="56dp"-->
+<!--    android:onClick="onClick"/>-->
+<!--</LinearLayout>-->

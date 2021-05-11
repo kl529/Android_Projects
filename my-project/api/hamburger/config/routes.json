@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hamburgers",
+      "handler": "hamburger.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hamburgers/count",
+      "handler": "hamburger.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hamburgers/:id",
+      "handler": "hamburger.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hamburgers",
+      "handler": "hamburger.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hamburgers/:id",
+      "handler": "hamburger.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hamburgers/:id",
+      "handler": "hamburger.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

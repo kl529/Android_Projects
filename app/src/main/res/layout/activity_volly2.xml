@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VollyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <Button
+            android:id="@+id/btnVolly"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Button"
+            android:layout_weight="1"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="add"
+            android:layout_weight="1"
+            android:onClick="onClick"/>
+
+        <ImageView
+            android:id="@+id/ivView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:src="@drawable/heart"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/nameget"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TextView"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/psget"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TextView"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
