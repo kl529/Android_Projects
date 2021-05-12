@@ -3,7 +3,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
 
-# Android-Projects (Not Completed)
+# Android-Projects
 
 Karice's Mini Android Projects (2016 ~ ) 
 
